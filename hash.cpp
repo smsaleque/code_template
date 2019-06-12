@@ -9,10 +9,6 @@ using namespace std;
 #define sfll(a) scanf("%lld",&a)
 #define inf 1e7
 #define m_p make_pair
-#define min3(a,b,c) min(a,min(b,c))
-#define min4(a,b,c,d) min(a,min3(b,c,d))
-#define min5(a,b,c,d,e) min(a,min4(b,c,d,e))
-#define min6(a,b,c,d,e,f) min(a,min5(b,c,d,e,f))
 #define pb push_back
 #define mem(x,val) memset(x,val,sizeof(x))
 #define read freopen("input.txt","r",stdin)
