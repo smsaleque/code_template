@@ -1,3 +1,4 @@
+// if there is a cycle it return's false
 bool dfs(int s){
     if(vis[s]) return false;
     vis[s] = true;
